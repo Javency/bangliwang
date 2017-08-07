@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>已登录状态购物车</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/已登录状态购物车.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/已登录状态购物车.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <!--顶部-->
+        <div class="top clearfix">
+            <div class="sign fl fwb">
+                <a href="#"> Hi,xingxiang001</a>
+                <a href="#" class="welcome fts fwn">欢迎回到邦礼!</a>
+            </div>
+            <div class="user fr pr">
+                <a href="#" class="fr flowus">关注我们<img src="img/xinLang.png"></a>
+                <span class="fr">|</span>
+                <a href="#" class="fr">网站地图</a>
+                <span class="fr">|</span>
+                <a href="#" class="wdblzh fr" id="myCount">我的邦礼账户<img src="img/downJian.png"></a><span class="fr">|</span>
+                <ul class="myList pa" id="mylist">
+                    <li><a href="#">我的邦礼账户</a></li>
+                    <li><a href="#">我的邦礼账户</a></li>
+                    <li><a href="#">我的邦礼账户</a></li>
+                    <li><a href="#">我的邦礼账户</a></li>
+                    <li><a href="#">我的邦礼账户</a></li>
+                </ul>
+                <a href="#" class="fr">我的收藏</a>
+                <span class="fr">|</span>
+                <a href="#" class="fr">我的订单</a>
+                <span class="fr">|</span>
+                <a href="#" class="fr  jifen fwb">邦礼积分21163.5</a>
+                <a href="#" class="fr jifen_img"><img src="img/hGuan.png" alt=""></a>
+            </div>
+        </div>
+        <!--顶部END-->
+
+        <!--步骤-->
+        <div class="step clearfix">
+            <a href="javascript:;">
+                <img src="img/logo1121.png" alt="">
+            </a>
+
+            <div class="step_rate pr fr">
+                <span class="s1"></span>
+                <span class="s2"></span>
+                <span class="s3"></span>
+            </div>
+        </div>
+        <!--步骤END-->
+
+        <!--closeDiv-->
+        <div class="closeDiv clearfix">
+            <a href="javascript:;" class="fr jiesuan"></a>
+            <p class="fr">已选商品(不含运费):<span>0积分</span></p>
+        </div>
+        <!--closeDiv_END-->
+
+        <!--购物车商品-->
+        <div class="shoppingGoods pr">
+            <table>
+                <thead>
+                    <th class="clearfix">
+                        <form>
+                            <input type="checkbox" name="" value="">
+                            <label for="">全选/全不选</label>
+                        </form>
+                    </th>
+                    <th>商品名称</th>
+                    <th></th>
+                    <th>单位(积分)</th>
+                    <th>操作</th>
+                    <th>金额(积分)</th>
+                    <th>数量</th>
+                </thead>
+                <tbody>
+                    <tr class="goodsList">
+                        <td>
+                            <input type="checkbox">
+                            <a href="javascript:;">
+                                <img src="img/gouWuimg1.jpg" alt="">
+                            </a>
+                            <span>德铂施威林蒸锅DEP-16 钢化玻璃锅盖精铸纯钢材质</span>
+                        </td>
+                        <td class="fenlei">规格分类：直径28cm</td>
+                        <td class="price2">149.00</td>
+                        <td class="num"><input type="number" value="1" min="1" max="99"></td>
+                        <td class="jifen">149.00积分</td>
+                        <td class="del">
+                            <a href="javascript:;">移入收藏夹</a>
+                            <a href="javascript:;">删除</a>
+                        </td>
+                    </tr>
+
+                    <tr class="goodsList">
+                        <td>
+                            <input type="checkbox">
+                            <a href="javascript:;">
+                                <img src="img/gouWuimg2.jpg" alt="">
+                            </a>
+                            <span>飞利浦便携式音箱SBM100 三种色系丰富视觉选择 wOOx扬声器</span>
+                        </td>
+                        <td class="fenlei">规格分类：直径28cm</td>
+                        <td class="price2">149.00</td>
+                        <td class="num"><input type="number" value="1" min="1" max="99"></td>
+                        <td class="jifen">149.00积分</td>
+                        <td class="del">
+                            <a href="javascript:;">移入收藏夹</a>
+                            <a href="javascript:;">删除</a>
+                        </td>
+                    </tr>
+
+                    <tr class="goodsList ban">
+                        <td>
+                            <span class="shixiao"></span>
+                            <a href="javascript:;">
+                                <img src="img/lby_cpimg4.jpg" alt="" width="83px" height="83px">
+                            </a>
+                            <span>德铂施威林蒸锅DEP-16 钢化玻璃锅盖精铸纯钢材质 璃锅盖精铸纯钢材质 高铂施威林蒸锅DEP-16 钢化玻璃锅盖精铸纯钢材质 璃锅盖</span>
+                        </td>
+                        <td class="fenlei">规格分类：直径28cm</td>
+                        <td class="price2">82.00</td>
+                        <td class="num"><input type="number" value="0" min="1" max="99" disabled="disabled"></td>
+                        <td class="jifen">82.00积分</td>
+                        <td class="del">
+                            <a href="javascript:;">移入收藏夹</a>
+                            <a href="javascript:;">删除</a>
+                        </td>
+                    </tr>
+
+                    <tr class="goodsList">
+                        <td>
+                            <input type="checkbox">
+                            <a href="javascript:;">
+                                <img src="img/reMai_img3.jpg" alt="" width="83px" height="83px">
+                            </a>
+                            <span>飞利浦便携式音箱SBM100 三种色系丰富视觉选择 wOOx扬声器</span>
+                        </td>
+                        <td class="fenlei">规格分类：直径28cm</td>
+                        <td class="price2">82.00</td>
+                        <td class="num"><input type="number" value="1" min="1" max="99"></td>
+                        <td class="jifen">82.00积分</td>
+                        <td class="del">
+                            <a href="javascript:;">移入收藏夹</a>
+                            <a href="javascript:;">删除</a>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <div class="closeAccount clearfix">
+                <div class="fl selectAll">
+                    <input type="checkbox">
+                    <label for="">全选/全不选</label>
+                    <a href="javascript:;">删除</a>
+                    <a href="javascript:;">清楚失效商品</a>
+                    <a href="javascript:;">移入收藏夹</a>
+                </div>
+                <div class="fr summary">
+                    <p class="fl"> 已选商品<span>0</span>件</p>
+                    <p class="fl">已选商品0件合计(不含运费):<span>0.00</span>积分</p>
+                    <a href="javascript:;" id="jiesuan" class="jieH"></a>
+                </div>
+            </div>
+        </div>
+        <!--购物车商品END-->
+
+        <p class="hotProduct">
+            热卖产品
+        </p>
+
+        <div id="slidebar">
+            <div class="hideBox">
+                <ul class="clearfix" id="bar">
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg1.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg2.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg3.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg4.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg5.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg1.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg2.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg3.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg4.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg5.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg1.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg2.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg3.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg4.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="img/tradeImg5.jpg" alt=""></a>
+                        <p class="detail">毕利格立体声蓝牙耳机毕利格立体声蓝牙耳机</p>
+                        <p class="price">市场价:<span>￥388.00</span></p>
+                        <p class="jifen">邦礼积分:<span>228.00积分</span></p>
+                    </li>
+                </ul>
+            </div>
+            <a href="javascript:;" id="prev"></a>
+            <a href="javascript:;" id="next"></a>
+        </div>
+    </div>
+
+    <!--底部-->
+    <div class="bg">
+        <div class="footer_nav">
+            <ul class="w1200 clearfix">
+                <li style="padding-left: 160px;"><img src="img/bottom_ico1.jpg">新手上路</li>
+                <li><img src="img/bottom_ico2.jpg">支付帮助</li>
+                <li><img src="img/bottom_ico3.jpg">配送说明</li>
+                <li><img src="img/bottom_ico4.jpg">订单帮助</li>
+                <li><img src="img/bottom_ico5.jpg">售后服务</li>
+            </ul>
+        </div>
+        <div class="detail">
+            <ul class="clearfix">
+                <li>
+                    <a href="#">兑换流程</a>
+                    <a href="#">常见问题</a>
+                    <a href="#">VIP会员</a>
+                    <a href="#">推荐注册分成</a>
+                </li>
+                <li>
+                    <a href="#">支付方式</a>
+                    <a href="#">如何退款</a>
+                    <a href="#">红包说明</a>
+                    <a href="#">发票服务</a>
+                </li>
+                <li>
+                    <a href="#">国内配送范围</a>
+                    <a href="#">国际收费标准</a>
+                    <a href="#">配送收费标准</a>
+                </li>
+                <li>
+                    <a href="#">如何查询订单</a>
+                    <a href="#">如何取消订单</a>
+                    <a href="#">如何修改订单</a>
+                </li>
+                <li>
+                    <a href="#">商品售后</a>
+                    <a href="#">退换货政策</a>
+                    <a href="#">投诉说明</a>
+                </li>
+            </ul>
+        </div>
+        <p class="wrap aboutus">
+            <a href="#">关于我们</a><span>|</span><a href="#">联系客服</a>|<a href="#">交易条款</a>|<a href="#">隐私声明</a>|<a href="#">免责条款</a>|<a href="#">友情链接</a>|<a href="#">顺丰快递查询</a>
+        </p>
+        <p class="wrap copyright">邦礼网2012-2022上海邦礼网络信息科技有限公司 版权所有 沪ICP备12038387号
+            <a href="#"><img src="img/baidu_bg.jpg" width="20" height="20"></a>
+        </p>
+    </div>
+    <a href="javascript:;" class="backtop pf"><img src="img/result-top-btn.png" alt=""></a>
+</body>
+
+</html>

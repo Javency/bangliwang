@@ -1,0 +1,133 @@
+body,
+div,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+p,
+a,
+span,
+dl,
+dt,
+dd,
+tt,
+td,
+input {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-size: 12px;
+    font-family: "Microsoft YaHei", sans-serif
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-family: sans-serif
+}
+
+img {
+    border: none
+}
+
+em,
+i,
+span,
+strong,
+b {
+    font-style: normal
+}
+
+.ftfm {
+    font-family: "Microsoft YaHei", sans-serif
+}
+
+.fts {
+    font-family: sans-serif
+}
+
+.fwn {
+    font-weight: normal;
+}
+
+.fwb {
+    font-weight: bold
+}
+
+.tc {
+    text-align: center;
+}
+
+.txh {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.clearfix:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.pa {
+    position: absolute
+}
+
+.pr {
+    position: relative
+}
+
+.pf {
+    position: fixed
+}
+
+.dis_block {
+    display: block
+}
+
+.dis_inblock {
+    display: inline-block
+}
+
+.dis_inline {
+    display: inline
+}
